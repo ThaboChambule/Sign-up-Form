@@ -3,6 +3,9 @@
     align-items: center;
     
 }
+input:focus {
+    border-color: blue;
+}
 .row1 p, .row2 p, .row3 p {
     margin-right: 30px;
 }
