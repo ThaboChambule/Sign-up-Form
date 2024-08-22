@@ -12,3 +12,24 @@ input:focus {
 .row3 input {
     border-color: red;
 }
+img {
+    width: 500px;
+    height: 500px;
+}
+.Container {
+    display: flex;
+   
+    
+}
+
+.sideimage {
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+
+}
+.Caption{
+   position: relative;
+    bottom: 40px;
+    font-size: 13px;
+}
