@@ -1,9 +1,14 @@
+@font-face {
+    font-family: my-font;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
 .row1, .row2, .row3 {
     display: flex;
     align-items: center;
     
 }
-input:focus {
+input:active {
     border-color: blue;
 }
 .row1 p, .row2 p, .row3 p {
@@ -19,7 +24,23 @@ img {
 .Container {
     display: flex;
    
-    
+}
+.odin1 img {
+width: 150px;
+height: 150px;
+
+}
+.odin1{
+    display: flex;
+    position: relative;
+    bottom: 350px;
+    background-color: hsla(0, 3%, 6%, 0.2);
+}
+.odin {
+    margin-top: 60px;
+    font-family: my-font, Norse Bold;
+   font-size: 50px;
+
 }
 
 .sideimage {
